@@ -26,6 +26,13 @@ def replace_with_thresholds(dataframe, variable):
 
 # Web uygulamasını oluşturun
 st.title("Suicide Prediction")
+# Streamlit sayfa konfigürasyonunu ayarla
+st.set_page_config(
+    page_title="Suicide Prediction App",
+    page_icon=":musical_note:",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 
 
 # Spotify API bilgileri
