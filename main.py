@@ -28,6 +28,7 @@ def replace_with_thresholds(dataframe, variable):
 st.title("Suicide Prediction 🖤 ")
 
 #st.set_page_config(background_color=(142, 163, 216))
+
 st.markdown(
     """
     <style>
