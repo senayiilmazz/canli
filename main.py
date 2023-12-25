@@ -23,12 +23,7 @@ def replace_with_thresholds(dataframe, variable):
     low_limit, up_limit = outlier_thresholds(dataframe, variable)
     dataframe.loc[(dataframe[variable] < low_limit), variable] = low_limit
     dataframe.loc[(dataframe[variable] > up_limit), variable] = up_limit
-
-# Web uygulamasını oluşturun
-st.title("Suicide Prediction 🖤 ")
-
-#st.set_page_config(background_color=(142, 163, 216))
-
+    
 st.markdown(
     """
     <style>
@@ -39,6 +34,12 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
+# Web uygulamasını oluşturun
+st.title("Suicide Prediction 🖤 ")
+
+#st.set_page_config(background_color=(142, 163, 216))
+
 
 
 # Spotify API bilgileri
