@@ -27,16 +27,7 @@ def replace_with_thresholds(dataframe, variable):
 # Web uygulamasını oluşturun
 st.title("Suicide Prediction 🖤 ")
 
-st.markdown(
-    """
-    <style>
-        body {
-            background-color: 8da6e5; 
-        }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+st.set_page_config(background_color='#8ea3d8')
 
 
 # Spotify API bilgileri
