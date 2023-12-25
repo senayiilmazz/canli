@@ -35,7 +35,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Web uygulamasını oluşturun
+
 st.title("Suicide Prediction 🖤 ")
 
 #st.set_page_config(background_color=(142, 163, 216))
