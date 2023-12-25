@@ -27,6 +27,17 @@ def replace_with_thresholds(dataframe, variable):
 # Web uygulamasını oluşturun
 st.title("Suicide Prediction 🖤 ")
 
+st.markdown(
+    """
+    <style>
+        body {
+            background-color: 8da6e5; 
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 
 # Spotify API bilgileri
 client_id = "821e87bf233045be9e933d4f7c247ac8"
