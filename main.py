@@ -90,7 +90,6 @@ def predict_suicide(song_name, artist_name, gender, model):
         return None
 
 def main():
-    st.title('Spotify Şarkı Tahminleme Uygulaması')
 
     # Kullanıcıdan şarkı adını al
     song_name = st.text_input('Şarkı Adı:')
