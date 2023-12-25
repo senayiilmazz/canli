@@ -25,8 +25,7 @@ def replace_with_thresholds(dataframe, variable):
     dataframe.loc[(dataframe[variable] > up_limit), variable] = up_limit
 
 # Web uygulamasını oluşturun
-st.title("Suicide Prediction")
-# Streamlit sayfa konfigürasyonunu ayarla
+st.title("Suicide Prediction 🖤 ")
 
 
 # Spotify API bilgileri
